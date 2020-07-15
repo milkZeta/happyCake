@@ -1,0 +1,58 @@
+{
+  "id": "1938943",
+  "name": "happyCase",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1089767",
+      "name": "三角",
+      "font_class": "sanjiao",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "6940842",
+      "name": "map",
+      "font_class": "map",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "6651160",
+      "name": "通用-联系客服图标",
+      "font_class": "tongyong-lianxikefutubiao",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "401005",
+      "name": "phone",
+      "font_class": "phone",
+      "unicode": "e7f4",
+      "unicode_decimal": 59380
+    },
+    {
+      "icon_id": "1667263",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "5466014",
+      "name": "cart",
+      "font_class": "cart",
+      "unicode": "e70d",
+      "unicode_decimal": 59149
+    },
+    {
+      "icon_id": "10687058",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    }
+  ]
+}

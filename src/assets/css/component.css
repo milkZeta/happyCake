@@ -1,0 +1,260 @@
+.nav-bar{
+	width:77%;
+	margin:0 auto;
+	display:flex;
+	flex-direction:row;
+    justify-content:space-start;
+    align-items:flex-start;
+}
+.logo-img{
+	height: 55px;
+	line-height: 55px;
+}
+.logo-img >img{
+	width: 47px;
+}
+.link-h{    	
+	height: 55px;
+	line-height: 54px;
+	padding: 0 5px;
+}
+.nav-link{
+	padding: 0 0% 0 7%;
+    font-size: 12px;
+}
+.city-bar{
+	display: flex;
+    justify-content: flex-end;
+	text-align:right;
+	font-size: 11px;
+	width: 120px;
+	height: 55px;
+	line-height: 55px;
+}
+a:-webkit-any-link {
+	color:gray;
+    text-decoration: none;
+}
+.city-h{
+	padding: 1px 4px;
+}
+.city-op >span{
+    height: 20px;
+    background-color: #ccc;
+    color: #fff;
+    padding: 1px 4px;
+}
+.tool-bar{
+	line-height: 55px;
+	display:flex;
+	flex-direction:row;
+	width:200px;
+	height:55px;
+	margin-left: auto;
+}
+.tool-icon{
+	width:30px;
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e61f";
+}
+.csr >span {
+    height: 20px;
+    padding: 1px 4px;
+    border: 0.1px solid;
+    font-size: 12px;
+    font-weight: 100;
+}
+#map{
+	color:"#6d9ad3"
+}
+
+/*
+navfooter
+*/
+.bottom{
+	padding: 24px 0 22px;
+    background-color: #191919;
+}
+.footer-link,.record-info{
+	display:flex;
+	justify-content:center;
+
+}
+.link-f,.w-f{
+	padding: 0 2%;
+	font-size:13px;
+	color: #fff;
+}
+.r-info {
+    padding: 2% 1% 0;
+    font-size: 10px;
+    color: #fff;
+}
+.link-f{	
+	border-right: 1px solid;
+}
+.footer-link >a:-webkit-any-link {
+     color: #fff; 
+}
+/*
+  modal
+  */
+ .city-input{
+ 	position: relative;
+ 	padding-left: 5px;    
+}
+ .city-input:before{
+    background:url('./../image/i-search.jpg') no-repeat 50%;
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 5px;
+    width: 28px;
+    height: 24px;
+    background-size: 60%;
+    opacity: .5;
+ }
+ .city-input >input{
+    display: block;
+    padding-left: 23px;
+    font-size: 10px;
+    width: 134px;
+    height: 17px;
+}
+ button, input, select {
+    overflow: visible;
+}
+.search-module{
+	display: flex;
+    padding: 2px;
+    white-space: nowrap;
+    text-align: left;
+}
+.search-span{
+	font-size: 11px;
+    padding-right: 3px;
+    display: inline-block;
+    vertical-align: top;
+}
+.search-module .hot-city
+{
+	white-space: normal;
+}
+.search-module .hot-city li {
+	font-size:10px;
+    display: inline-block;
+    margin: 0 6px;
+    cursor: pointer;
+    line-height: 15px;
+}
+.popBoard{
+    width: 230px;
+    background-color: #fff;
+    position: absolute;
+    left: 21%;
+    top: 35px;
+    padding: 8px;
+    border: 0.1px solid;
+    z-index: 10;
+}
+.search-module .hot-city ol{
+    padding-inline-start: 0;
+    margin-block-start: 0;
+}
+.selector{
+	position: relative;
+    margin-right: 6px;
+}
+.selectedCity:after{
+	background:url('./../image/triangle.png') ;
+    background-size:100% 100%;
+	width: 21px;
+    height: 22px;
+    /*background-color: red;*/
+    position: absolute;
+    content: '';
+    right: 5px;
+}
+.selectedCity{
+	border: 0.1px solid;	
+	font-size: 10px;
+	width: 70px;
+    height: 21px;
+    line-height: 21px;    
+    padding-left: 9px;
+}
+.open:after{
+    -webkit-transform: rotate(180deg);
+}
+.open{
+	border-bottom-width: 0;
+}
+.selector ol{
+    margin-block-start: 0px;
+	padding-inline-start: 0px;
+    width: 70px;
+    font-size: 10px;
+    border: 0.1px solid;
+    border-top-width: 0;
+    z-index:10;
+    background-color: #fff;
+    color: #000000;  
+    position: absolute; 
+}
+.selector li {
+	padding-left: 9px;
+    display: block;
+}
+.tip{
+    margin-top: 15px;
+    padding: 2px;
+}
+.tip >span{
+    font-size:10px;
+    display:flex;
+    text-align:center
+}
+.selector.s-s >ol{
+    box-shadow: 0px 0.5px 0.5px 0.5px#888888;
+    border-width: 0;
+    width: 162px;
+}
+/*
+  card
+*/
+.card{
+    display: flex;
+}
+.share_card{
+    width: 33.333333333333336%;
+    height: 33vw;
+    background: #eee2c8;
+    position: relative;
+}
+.share_img{
+    width: 50%;
+    top: 16%;
+    position: absolute;
+    left: 20%;
+}
+.share_detail{
+    position: absolute;
+    top: 58%;
+    left: 23%;
+    height: 40px;
+    line-height: 40px;
+}
+.share_tip{
+    position: absolute;
+    top: 72%;
+    left: 14%;
+}
