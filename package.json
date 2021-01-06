@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@babel/parser": "^7.10.5",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^3.4.1",
     "jquery": "^3.5.1",
     "vue": "^2.5.2",
